@@ -4,7 +4,7 @@
   "description": "Backend API for Health App using JSON Server",
   "main": "server.js",
   "scripts": {
-    "start": "json-server --watch db.json --port 5000",
+    "start": "node server.js",
     "dev": "json-server --watch db.json --port 5000"
   },
   "keywords": ["json-server", "api", "backend"],
@@ -12,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }

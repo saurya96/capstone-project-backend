@@ -23,7 +23,7 @@
     },
     {
       "id": "2",
-      "email": "john@example.com",
+      "email": "john@example.com", 
       "password": "password123",
       "name": "John Smith",
       "phone": "555-9876",

@@ -4,7 +4,7 @@
   "description": "Backend API for Health App using JSON Server",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "json-server --watch db.json --port $PORT --host 0.0.0.0",
     "dev": "json-server --watch db.json --port 5000"
   },
   "keywords": ["json-server", "api", "backend"],

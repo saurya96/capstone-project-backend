@@ -1,0 +1,667 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "demo@healthcare.com",
+      "password": "Demo123!",
+      "name": "Demo User",
+      "phone": "555-1234",
+      "dateOfBirth": "1990-05-15",
+      "gender": "male",
+      "address": {
+        "street": "123 Demo Street",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001"
+      },
+      "bloodGroup": "O+",
+      "emergencyContact": {
+        "name": "Jane Doe",
+        "relationship": "Spouse",
+        "phone": "555-5678"
+      }
+    },
+    {
+      "id": "2",
+      "email": "john@example.com",
+      "password": "password123",
+      "name": "John Smith",
+      "phone": "555-9876",
+      "dateOfBirth": "1985-08-20",
+      "gender": "male",
+      "address": {
+        "street": "456 Oak Avenue",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zipCode": "11201"
+      },
+      "bloodGroup": "A+",
+      "emergencyContact": {
+        "name": "Sarah Smith",
+        "relationship": "Sister",
+        "phone": "555-4321"
+      }
+    },
+    {
+      "id": "1770180213150",
+      "email": "we@gmail.com",
+      "password": "123456",
+      "name": "sedfg",
+      "phone": "8105984585",
+      "dateOfBirth": "2026-02-05",
+      "gender": "",
+      "address": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "zipCode": ""
+      },
+      "bloodGroup": "",
+      "emergencyContact": {
+        "name": "",
+        "relationship": "",
+        "phone": ""
+      },
+      "createdAt": "2026-02-04T04:43:33.150Z"
+    },
+    {
+      "id": "1770181282992",
+      "email": "Kareenayadav24@navgurukul.org",
+      "password": "123456",
+      "name": "Santosh Singh",
+      "phone": "8105984585",
+      "dateOfBirth": "2026-02-12",
+      "gender": "",
+      "address": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "zipCode": ""
+      },
+      "bloodGroup": "",
+      "emergencyContact": {
+        "name": "",
+        "relationship": "",
+        "phone": ""
+      },
+      "createdAt": "2026-02-04T05:01:22.992Z"
+    },
+    {
+      "id": "1770351989",
+      "email": "testuser@example.com",
+      "password": "test123",
+      "name": "Test User New",
+      "phone": "9999999999",
+      "dateOfBirth": "1995-01-01",
+      "gender": "male",
+      "address": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "zipCode": ""
+      },
+      "bloodGroup": "B+",
+      "emergencyContact": {
+        "name": "",
+        "relationship": "",
+        "phone": ""
+      },
+      "createdAt": "2026-02-06T09:56:29+05:30"
+    },
+    {
+      "id": "1770355250466",
+      "email": "aashika823@gmail.com",
+      "password": "123456",
+      "name": "Aashika singh",
+      "phone": "8105984585",
+      "dateOfBirth": "2026-02-11",
+      "gender": "",
+      "address": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "zipCode": ""
+      },
+      "bloodGroup": "",
+      "emergencyContact": {
+        "name": "",
+        "relationship": "",
+        "phone": ""
+      },
+      "createdAt": "2026-02-06T05:20:50.466Z"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Sarah Smith",
+      "email": "sarah.smith@hospital.com",
+      "phone": "555-0101",
+      "specialty": "Cardiology",
+      "qualifications": [
+        "MD",
+        "FACC"
+      ],
+      "experience": 15,
+      "consultationFee": 200,
+      "rating": 4.8,
+      "reviewCount": 128,
+      "location": "New York",
+      "address": {
+        "street": "123 Medical Plaza",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001"
+      },
+      "availability": true,
+      "bio": "Experienced cardiologist specializing in preventive cardiology and heart disease management.",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "image": "https://via.placeholder.com/150/0066cc/ffffff?text=Dr.Smith",
+      "availableSlots": [
+        {
+          "day": "Monday",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "day": "Wednesday",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "day": "Friday",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Dr. Michael Chen",
+      "email": "michael.chen@hospital.com",
+      "phone": "555-0102",
+      "specialty": "Dermatology",
+      "qualifications": [
+        "MD",
+        "FAAD"
+      ],
+      "experience": 12,
+      "consultationFee": 180,
+      "rating": 4.9,
+      "reviewCount": 95,
+      "location": "New York",
+      "address": {
+        "street": "456 Health Center",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10002"
+      },
+      "availability": true,
+      "bio": "Board-certified dermatologist with expertise in medical and cosmetic dermatology.",
+      "languages": [
+        "English",
+        "Mandarin"
+      ],
+      "image": "https://via.placeholder.com/150/00cc66/ffffff?text=Dr.Chen",
+      "availableSlots": [
+        {
+          "day": "Tuesday",
+          "startTime": "10:00",
+          "endTime": "18:00"
+        },
+        {
+          "day": "Thursday",
+          "startTime": "10:00",
+          "endTime": "18:00"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Dr. Emily Johnson",
+      "email": "emily.johnson@hospital.com",
+      "phone": "555-0103",
+      "specialty": "Pediatrics",
+      "qualifications": [
+        "MD",
+        "FAAP"
+      ],
+      "experience": 10,
+      "consultationFee": 150,
+      "rating": 4.7,
+      "reviewCount": 156,
+      "location": "Brooklyn",
+      "address": {
+        "street": "789 Kids Care Blvd",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zipCode": "11201"
+      },
+      "availability": true,
+      "bio": "Compassionate pediatrician dedicated to providing comprehensive care for children.",
+      "languages": [
+        "English"
+      ],
+      "image": "https://via.placeholder.com/150/cc6600/ffffff?text=Dr.Johnson",
+      "availableSlots": [
+        {
+          "day": "Monday",
+          "startTime": "08:00",
+          "endTime": "16:00"
+        },
+        {
+          "day": "Tuesday",
+          "startTime": "08:00",
+          "endTime": "16:00"
+        },
+        {
+          "day": "Wednesday",
+          "startTime": "08:00",
+          "endTime": "16:00"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Dr. James Wilson",
+      "email": "james.wilson@hospital.com",
+      "phone": "555-0104",
+      "specialty": "Orthopedics",
+      "qualifications": [
+        "MD",
+        "FAAOS"
+      ],
+      "experience": 18,
+      "consultationFee": 220,
+      "rating": 4.6,
+      "reviewCount": 89,
+      "location": "Manhattan",
+      "address": {
+        "street": "321 Bone & Joint Ave",
+        "city": "Manhattan",
+        "state": "NY",
+        "zipCode": "10003"
+      },
+      "availability": true,
+      "bio": "Orthopedic surgeon specializing in sports medicine and joint replacement.",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "image": "https://via.placeholder.com/150/6600cc/ffffff?text=Dr.Wilson",
+      "availableSlots": [
+        {
+          "day": "Monday",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        },
+        {
+          "day": "Thursday",
+          "startTime": "09:00",
+          "endTime": "17:00"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Dr. Lisa Martinez",
+      "email": "lisa.martinez@hospital.com",
+      "phone": "555-0105",
+      "specialty": "Neurology",
+      "qualifications": [
+        "MD",
+        "PhD",
+        "FAAN"
+      ],
+      "experience": 20,
+      "consultationFee": 250,
+      "rating": 4.9,
+      "reviewCount": 142,
+      "location": "Queens",
+      "address": {
+        "street": "654 Neuro Center",
+        "city": "Queens",
+        "state": "NY",
+        "zipCode": "11101"
+      },
+      "availability": true,
+      "bio": "Leading neurologist with expertise in neurodegenerative diseases and headache management.",
+      "languages": [
+        "English",
+        "Spanish",
+        "Portuguese"
+      ],
+      "image": "https://via.placeholder.com/150/cc0066/ffffff?text=Dr.Martinez",
+      "availableSlots": [
+        {
+          "day": "Wednesday",
+          "startTime": "10:00",
+          "endTime": "18:00"
+        },
+        {
+          "day": "Friday",
+          "startTime": "10:00",
+          "endTime": "18:00"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Dr. Robert Taylor",
+      "email": "robert.taylor@hospital.com",
+      "phone": "555-0106",
+      "specialty": "General Practice",
+      "qualifications": [
+        "MD"
+      ],
+      "experience": 8,
+      "consultationFee": 120,
+      "rating": 4.5,
+      "reviewCount": 78,
+      "location": "Brooklyn",
+      "address": {
+        "street": "987 Community Health",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zipCode": "11202"
+      },
+      "availability": true,
+      "bio": "Family medicine physician providing comprehensive primary care for all ages.",
+      "languages": [
+        "English"
+      ],
+      "image": "https://via.placeholder.com/150/009999/ffffff?text=Dr.Taylor",
+      "availableSlots": [
+        {
+          "day": "Monday",
+          "startTime": "08:00",
+          "endTime": "18:00"
+        },
+        {
+          "day": "Tuesday",
+          "startTime": "08:00",
+          "endTime": "18:00"
+        },
+        {
+          "day": "Thursday",
+          "startTime": "08:00",
+          "endTime": "18:00"
+        }
+      ]
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "userId": "1",
+      "doctorId": "1",
+      "doctorName": "Dr. Sarah Smith",
+      "specialty": "Cardiology",
+      "date": "2026-02-10",
+      "time": "10:00",
+      "duration": 30,
+      "status": "scheduled",
+      "type": "consultation",
+      "reason": "Annual heart checkup",
+      "symptoms": [
+        "None"
+      ],
+      "notes": "Regular annual checkup",
+      "consultationMode": "in-person",
+      "amount": 200,
+      "location": "123 Medical Plaza, New York, NY 10001"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "doctorId": "2",
+      "doctorName": "Dr. Michael Chen",
+      "specialty": "Dermatology",
+      "date": "2026-01-15",
+      "time": "14:30",
+      "duration": 30,
+      "status": "completed",
+      "type": "consultation",
+      "reason": "Skin rash consultation",
+      "symptoms": [
+        "Rash",
+        "Itching"
+      ],
+      "notes": "Prescribed topical cream",
+      "diagnosis": "Contact dermatitis",
+      "consultationMode": "in-person",
+      "amount": 180,
+      "location": "456 Health Center, New York, NY 10002"
+    },
+    {
+      "id": "3",
+      "userId": "1",
+      "doctorId": "5",
+      "doctorName": "Dr. Lisa Martinez",
+      "specialty": "Neurology",
+      "date": "2026-02-15",
+      "time": "11:00",
+      "duration": 30,
+      "status": "scheduled",
+      "type": "followup",
+      "reason": "Migraine follow-up",
+      "symptoms": [
+        "Headache"
+      ],
+      "notes": "Follow-up for migraine management",
+      "consultationMode": "telemedicine",
+      "amount": 250,
+      "location": "Virtual Consultation"
+    },
+    {
+      "id": "4",
+      "userId": "1",
+      "doctorId": "3",
+      "doctorName": "Dr. Emily Johnson",
+      "specialty": "Pediatrics",
+      "date": "2025-12-20",
+      "time": "09:30",
+      "duration": 30,
+      "status": "completed",
+      "type": "checkup",
+      "reason": "Child wellness visit",
+      "symptoms": [],
+      "notes": "All vitals normal",
+      "consultationMode": "in-person",
+      "amount": 150,
+      "location": "789 Kids Care Blvd, Brooklyn, NY 11201"
+    },
+    {
+      "id": "apt1770351993",
+      "userId": "1770351989",
+      "doctorId": "1",
+      "doctorName": "Dr. Sarah Smith",
+      "specialty": "Cardiology",
+      "date": "2026-02-20",
+      "time": "10:00",
+      "status": "scheduled",
+      "reason": "Heart checkup"
+    }
+  ],
+  "vitals": [
+    {
+      "id": "1",
+      "userId": "1",
+      "date": "2026-01-15",
+      "bloodPressure": {
+        "systolic": 120,
+        "diastolic": 80
+      },
+      "heartRate": 72,
+      "temperature": 98.6,
+      "weight": 170,
+      "height": 70,
+      "bmi": 24.4,
+      "oxygenSaturation": 98,
+      "recordedBy": "Dr. Michael Chen"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "date": "2025-12-20",
+      "bloodPressure": {
+        "systolic": 118,
+        "diastolic": 78
+      },
+      "heartRate": 70,
+      "temperature": 98.4,
+      "weight": 168,
+      "height": 70,
+      "bmi": 24.1,
+      "oxygenSaturation": 99,
+      "recordedBy": "Dr. Emily Johnson"
+    },
+    {
+      "id": "3",
+      "userId": "1",
+      "date": "2025-11-10",
+      "bloodPressure": {
+        "systolic": 122,
+        "diastolic": 82
+      },
+      "heartRate": 75,
+      "temperature": 98.7,
+      "weight": 172,
+      "height": 70,
+      "bmi": 24.7,
+      "oxygenSaturation": 97,
+      "recordedBy": "Dr. Sarah Smith"
+    }
+  ],
+  "labTests": [
+    {
+      "id": "1",
+      "userId": "1",
+      "testName": "Complete Blood Count",
+      "testType": "Blood Test",
+      "orderedDate": "2026-01-10",
+      "completedDate": "2026-01-12",
+      "orderedBy": "Dr. Sarah Smith",
+      "status": "completed",
+      "results": "All values within normal range",
+      "resultValues": [
+        {
+          "parameter": "WBC",
+          "value": "7.5",
+          "unit": "K/uL",
+          "normalRange": "4.5-11.0",
+          "flag": "normal"
+        },
+        {
+          "parameter": "RBC",
+          "value": "5.2",
+          "unit": "M/uL",
+          "normalRange": "4.5-5.5",
+          "flag": "normal"
+        },
+        {
+          "parameter": "Hemoglobin",
+          "value": "15.2",
+          "unit": "g/dL",
+          "normalRange": "13.5-17.5",
+          "flag": "normal"
+        },
+        {
+          "parameter": "Platelets",
+          "value": "250",
+          "unit": "K/uL",
+          "normalRange": "150-400",
+          "flag": "normal"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "testName": "Lipid Panel",
+      "testType": "Blood Test",
+      "orderedDate": "2025-12-01",
+      "completedDate": "2025-12-03",
+      "orderedBy": "Dr. Sarah Smith",
+      "status": "completed",
+      "results": "Cholesterol slightly elevated",
+      "resultValues": [
+        {
+          "parameter": "Total Cholesterol",
+          "value": "210",
+          "unit": "mg/dL",
+          "normalRange": "<200",
+          "flag": "high"
+        },
+        {
+          "parameter": "LDL",
+          "value": "130",
+          "unit": "mg/dL",
+          "normalRange": "<100",
+          "flag": "high"
+        },
+        {
+          "parameter": "HDL",
+          "value": "55",
+          "unit": "mg/dL",
+          "normalRange": ">40",
+          "flag": "normal"
+        },
+        {
+          "parameter": "Triglycerides",
+          "value": "125",
+          "unit": "mg/dL",
+          "normalRange": "<150",
+          "flag": "normal"
+        }
+      ]
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": "1",
+      "userId": "1",
+      "doctorId": "2",
+      "doctorName": "Dr. Michael Chen",
+      "appointmentId": "2",
+      "prescriptionDate": "2026-01-15",
+      "medications": [
+        {
+          "name": "Hydrocortisone Cream",
+          "dosage": "1%",
+          "frequency": "Twice daily",
+          "duration": "7 days",
+          "instructions": "Apply thin layer to affected area",
+          "refills": 0
+        }
+      ],
+      "diagnosis": "Contact dermatitis",
+      "notes": "Avoid known allergens. Follow up in 2 weeks if not improved.",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "doctorId": "5",
+      "doctorName": "Dr. Lisa Martinez",
+      "appointmentId": "3",
+      "prescriptionDate": "2025-11-15",
+      "medications": [
+        {
+          "name": "Sumatriptan",
+          "dosage": "50mg",
+          "frequency": "As needed for migraine",
+          "duration": "90 days",
+          "instructions": "Take at onset of migraine. Max 2 doses per day.",
+          "refills": 2
+        }
+      ],
+      "diagnosis": "Migraine headaches",
+      "notes": "Keep headache diary. Avoid triggers.",
+      "status": "active"
+    }
+  ]
+}
